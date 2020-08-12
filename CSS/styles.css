@@ -1,0 +1,138 @@
+/* Global */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+a:visited {
+  color: #212121;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* color: #ffffff; */
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+address {
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  /* color: #ffffff; */
+}
+
+/* Classes Home*/
+.font-logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
+.color-logo {
+  color: #2196f3;
+}
+
+.link-nav {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.link-nav:hover {
+  color: #2196f3;
+}
+
+.link-nav.nav-contacts {
+  color: #757575;
+}
+
+.nav-contacts:hover {
+  color: #2196f3;
+}
+
+.h4-features {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.p-features {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.card-name {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.card-desc {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.color-logo-footer {
+  color: #ffffff;
+}
+
+.link-footer.footer-contacts {
+  font-size: 14px;
+
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+/* Classes Portfolio */
+.card-name-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.card-desc-portfolio {
+  font-size: 16px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
