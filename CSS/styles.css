@@ -13,15 +13,6 @@ ul {
   list-style-type: none;
 }
 
-h1 {
-  font-size: 44px;
-  font-weight: 900;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  /* color: #ffffff; */
-}
-
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -36,15 +27,19 @@ p {
   color: #757575;
 }
 
-address {
-  font-style: normal;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-
-  /* color: #ffffff; */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+button,
+span {
+  margin: 0;
+  padding: 0;
 }
-
-/* Classes Home*/
+/* Style Nav*/
 .font-logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -77,6 +72,22 @@ address {
   color: #2196f3;
 }
 
+/* Style Hero */
+
+.hero {
+  background: #2f303a;
+}
+
+.h1-hero {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* Style Features */
 .h4-features {
   font-weight: 700;
   font-size: 14px;
@@ -88,11 +99,13 @@ address {
 
 .p-features {
   font-size: 14px;
+  line-height: 24px;
   letter-spacing: 0.03em;
 
   color: #757575;
 }
 
+/* Style Card */
 .card-name {
   font-weight: 500;
   font-size: 16px;
@@ -108,6 +121,7 @@ address {
   color: #757575;
 }
 
+/* Style Footer */
 .color-logo-footer {
   color: #ffffff;
 }
@@ -116,10 +130,10 @@ address {
   font-size: 14px;
 
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
-/* Classes Portfolio */
+/* Style Portfolio.html */
 .card-name-portfolio {
   font-weight: 700;
   font-size: 18px;
@@ -135,4 +149,195 @@ address {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+.address-footer {
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+/* Containers and Flexbox*/
+/* Header */
+.container {
+  width: 1200px;
+  outline: 1px solid black;
+  margin: auto;
+}
+
+.nav-container {
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  outline: 1px solid black;
+  justify-content: center;
+}
+
+.logo-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ul-container {
+  display: flex;
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
+  justify-content: center;
+}
+
+.ul-container > li:not(:first-child) {
+  margin-left: 50px;
+}
+
+.ul-contacts-container {
+  display: flex;
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.ul-contacts-container > li:not(:first-child) {
+  margin-left: 50px;
+}
+
+/* Hero */
+.hero {
+  outline: 1px solid black;
+  margin-bottom: 94px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.h1-hero {
+  display: inline-block;
+  width: 670px;
+  text-align: center;
+
+  margin: 200px 250px 30px 250px;
+}
+
+.btn-hero {
+  display: inline-block;
+  width: 200px;
+  padding: 10px 0px;
+  margin: 0px 500px 200px 500px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
+}
+
+.btn-text {
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Features */
+.features {
+  margin-left: 15px;
+  margin-right: 15px;
+  outline: 1px solid black;
+  margin-bottom: 94px;
+}
+
+.ul-features {
+  display: flex;
+}
+
+.ul-features > li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.ul-features > li > h4 {
+  margin-bottom: 10px;
+}
+
+/* Product */
+.product {
+  outline: 1px solid black;
+  margin-bottom: 94px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.h2-product,
+.h2-team {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.ul-product {
+  display: flex;
+}
+
+.ul-product > li:not(:first-child) {
+  margin-left: 30px;
+}
+
+/* Team */
+
+.team {
+  outline: 1px solid black;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.ul-team {
+  display: flex;
+}
+
+.ul-team > li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.card-name {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.card-desc {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+
+.footer-container {
+  outline: 1px solid black;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  background: #2f303a;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container-footer {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.address-footer {
+  margin-bottom: 9px;
+}
+.link-footer.footer-contacts {
+  margin-bottom: 9px;
+}
+
+.link-footer.footer-contacts.tel {
+  margin-bottom: 60px;
 }
