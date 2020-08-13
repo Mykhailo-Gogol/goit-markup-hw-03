@@ -39,6 +39,7 @@ span {
   margin: 0;
   padding: 0;
 }
+/* Index.html */
 /* Style Nav*/
 .font-logo {
   font-family: "Raleway", sans-serif;
@@ -232,6 +233,7 @@ span {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   border-radius: 4px;
+  border-style: hidden;
 }
 
 .btn-text {
@@ -340,4 +342,75 @@ span {
 
 .link-footer.footer-contacts.tel {
   margin-bottom: 60px;
+}
+
+/* Portfolio.html */
+/* Nav */
+.container {
+  outline: 1px solid black;
+}
+.nav-container {
+  margin-bottom: 94px;
+}
+
+/* Filtres */
+.portfolio .filtres {
+  height: 44px;
+  outline: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 34px;
+}
+
+.portfolio .filtres > button:not(:first-child) {
+  margin-left: 8px;
+}
+
+.btn-portfolio {
+  background: #f5f4fa;
+  border-color: #f5f4fa;
+  border-radius: 4px;
+  border-style: hidden;
+}
+
+.btn-portfolio:hover {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.btn-portfolio-text {
+  padding: 6px 22px 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.btn-portfolio-text:hover {
+  color: #ffffff;
+}
+
+/* Projects */
+.projects {
+  outline: 1px solid black;
+  margin-bottom: 94px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.wrap > li:not(:nth-of-type(3n - 5)) {
+  margin-left: 30px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
