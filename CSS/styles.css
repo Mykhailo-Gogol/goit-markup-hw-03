@@ -178,36 +178,23 @@ span {
 /* Containers and Flexbox*/
 /* Header */
 
-.container {
-  max-width: 1600px;
-
-  /* outline: 1px solid black; */
-
-  margin: auto;
-}
-
 .nav-container {
   max-width: 1170px;
   display: flex;
 
+  padding-top: 25px;
+  padding-bottom: 25px;
+
   /* outline: 1px solid black; */
-
-  justify-content: center;
   margin: auto;
-}
-
-.logo-container {
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 
 .ul-container {
   display: flex;
+  height: 16px;
+  margin: auto;
 
-  margin-top: 32px;
-  margin-bottom: 32px;
   margin-left: 93px;
-  justify-content: center;
 }
 
 .ul-container > li:not(:first-child) {
@@ -216,11 +203,10 @@ span {
 
 .ul-contacts-container {
   display: flex;
-
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: auto;
-  justify-content: center;
+  height: 16px;
+  margin-left: 330px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .ul-contacts-container > li:not(:first-child) {
@@ -318,6 +304,7 @@ span {
   max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
+  margin: auto;
 
   background: #f5f4fa;
 }
@@ -359,6 +346,7 @@ span {
   max-width: 1600px;
 
   background: #2f303a;
+  margin: auto;
 }
 
 .footer-container-width {
