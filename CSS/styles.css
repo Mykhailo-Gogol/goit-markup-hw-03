@@ -1,12 +1,18 @@
 /* Global */
 
+:root {
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #fff;
 }
 
 a,
 a:visited {
-  color: #212121;
+  color: var(--second-text-color);
   text-decoration: none;
 }
 
@@ -18,21 +24,17 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 p {
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 h1,
-h2,
-h3,
 h4,
-h5,
-h6,
 ul,
 button,
 span {
@@ -59,7 +61,7 @@ span {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .link-nav:hover {
@@ -67,7 +69,7 @@ span {
 }
 
 .link-nav.nav-contacts {
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .nav-contacts:hover {
@@ -95,14 +97,14 @@ span {
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .p-features {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 /* Style Card */
@@ -111,13 +113,13 @@ span {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .card-desc {
   font-size: 16px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 /* Style Footer */
@@ -142,7 +144,7 @@ span {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .card-desc-portfolio {
@@ -152,7 +154,7 @@ span {
   line-height: 30px;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .address-footer {
@@ -171,6 +173,8 @@ span {
 }
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: auto;
 }
 
@@ -363,7 +367,7 @@ span {
 }
 
 .btn-portfolio {
-  color: #212121;
+  color: var(--second-text-color);
   background: #f5f4fa;
   border-color: #f5f4fa;
   border-radius: 4px;
@@ -379,7 +383,17 @@ span {
 
 /* Projects */
 
+.projects {
+  margin: auto;
+  /* width: 1178px; */
+}
+
+.img-contain {
+  width: 100%;
+}
+
 .card-style-portfolio {
+  width: 370px;
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
